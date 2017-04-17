@@ -1,5 +1,7 @@
 # Welcome to Raft
 
+*Deployed at [raft2k17.herokuapp.com](http://raft2k17.herokuapp.com/)**
+
 ## The Team
 
 Al Musavi [almusavi](https://github.com/almusavi)
@@ -15,6 +17,9 @@ This app democratizes the decision making process around setting the details for
 
 Raft integrates Dwolla Transfers, making it possible for event organizers a bill (max $5) to Raft members that RSVP but fail to show up to an event that the group has planned. Members that receive a bill have their access to their current Raft groups until they validate this payment. 
 
+## Dependencies
+
+Raft requires ruby to be installed locally. Visit the [website](https://www.ruby-lang.org/en/) for instructions.
 
 ##Installation##
 
@@ -28,25 +33,19 @@ To install this application locally:
     
     `$ cd wherever-you-cloned-the-repo-to/raft`
 
-3. Install dependencies using bundler.
-    
+3. Install dependencies using bundler. Ensure that the latest version of rails is also installed.
+	`$ gem install rails`
     `$ bundle install`
 
 4. Start a local rails server.
     
-    `$ rails server` or `$ rails s`
+    `$ rails server` 
 
 5. In your web browser, navigate to [localhost:3000](localhost:3000) to view the app.
 
-##Tech Stack##
-- Google Maps API
-- Dwolla API
-- Rails 
-- Postgresql
-- Heroku
 
 **Screenshots**
 ![Screenshot](screenshot.png)
 
 
-*Deployed at raft2k17.heroku.com*
+

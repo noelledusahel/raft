@@ -34,6 +34,7 @@ To install this application locally:
     `$ cd wherever-you-cloned-the-repo-to/raft`
 
 3. Install dependencies using bundler. Ensure that the latest version of rails is also installed.
+	
 	`$ gem install rails`
     `$ bundle install`
 

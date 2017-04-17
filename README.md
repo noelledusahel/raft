@@ -1,10 +1,44 @@
-# Raft
-**Project Description**
+# Welcome to Raft
 
-This is our final group project for Dev Bootcamp. Raft is a Ruby on Rails web app that helps groups of friends plan events and stay accountable. 
+## The Team
+
+Al Musavi [almusavi](https://github.com/almusavi)
+Avril Duvernay [avrilanne](https://github.com/avrilanne)
+Noelle Barber [noelledusahel](https://github.com/noelledusahel)
+Sarah Dudek [sarahdudek](https://github.com/sarahdudek)
+
+##Project Description##
+
+Raft is a Ruby on Rails web app that helps groups of friends plan events and keep each other accountable. 
+
+This app democratizes the decision making process around setting the details for an event. First an event organizer creates a poll that offers 3 options for dates, times and locations. This poll is available for all raft members to fill out, and settles a final date time and location once all members have submitted a response. Once their response is submitted, members can RSVP to the event. 
+
+Raft integrates Dwolla Transfers, making it possible for event organizers a bill (max $5) to Raft members that RSVP but fail to show up to an event that the group has planned. Members that receive a bill have their access to their current Raft groups until they validate this payment. 
 
 
-**Tech Stack**
+##Installation##
+
+To install this application locally:
+
+1. Clone this repository to your local computer
+    
+    `$ git clone https://github.com/noelledusahel/raft.git`
+
+2. Navigate to the newly cloned repo.
+    
+    `$ cd wherever-you-cloned-the-repo-to/raft`
+
+3. Install dependencies using bundler.
+    
+    `$ bundle install`
+
+4. Start a local rails server.
+    
+    `$ rails server` or `$ rails s`
+
+5. In your web browser, navigate to [localhost:3000](localhost:3000) to view the app.
+
+##Tech Stack##
 - Google Maps API
 - Dwolla API
 - Rails 

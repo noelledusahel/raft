@@ -21,7 +21,7 @@ Raft integrates Dwolla Transfers, making it possible for event organizers a bill
 
 Raft requires ruby to be installed locally. Visit the [website](https://www.ruby-lang.org/en/) for instructions.
 
-##Installation##
+## Installation
 
 To install this application locally:
 

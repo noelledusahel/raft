@@ -4,12 +4,12 @@
 
 ## The Team
 
-Al Musavi [almusavi](https://github.com/almusavi)
-Avril Duvernay [avrilanne](https://github.com/avrilanne)
-Noelle Barber [noelledusahel](https://github.com/noelledusahel)
-Sarah Dudek [sarahdudek](https://github.com/sarahdudek)
+* Al Musavi [almusavi](https://github.com/almusavi)
+* Avril Duvernay [avrilanne](https://github.com/avrilanne)
+* Noelle Barber [noelledusahel](https://github.com/noelledusahel)
+* Sarah Dudek [sarahdudek](https://github.com/sarahdudek)
 
-##Project Description##
+## Project Description
 
 Raft is a Ruby on Rails web app that helps groups of friends plan events and keep each other accountable. 
 

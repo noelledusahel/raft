@@ -35,7 +35,7 @@ To install this application locally:
 
 3. Install dependencies using bundler. Ensure that the latest version of rails is also installed.
 	
-	`$ gem install rails`
+	`$ gem install rails` <br/>
     `$ bundle install`
 
 4. Start a local rails server.

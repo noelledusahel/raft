@@ -21,6 +21,13 @@ Raft integrates Dwolla Transfers, making it possible for event organizers a bill
 
 Raft requires ruby to be installed locally. Visit the [website](https://www.ruby-lang.org/en/) for instructions.
 
+In order to be deployed locally, Raft also requires a Google Maps API Key, as well as a Dwolla API key and secret. 
+
+To store the required API keys
+
+1. create a .env file in root folder 
+2. Visit https://console.developers.google.com/ and generate a Google Maps API Key.  
+
 ## Installation
 
 To install this application locally:

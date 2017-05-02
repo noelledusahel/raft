@@ -26,7 +26,7 @@ In order to be deployed locally, Raft also requires a Google Maps API Key, as we
 To store the required API keys
 
 1. Confirm that .env is included in .gitignore
-2. create a .env file in root folder 
+2. Create a .env file in root folder 
 3. Visit https://console.developers.google.com/ and generate a Google Maps API Key.  
 4. Include Google Maps API Key in .env file
 	

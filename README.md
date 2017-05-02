@@ -29,14 +29,14 @@ To store the required API keys
 2. Visit https://console.developers.google.com/ and generate a Google Maps API Key.  
 3. Include Google Maps API Key in .env file
 	
-	`GOOGLE_API_KEY=(Paste API Key Here)
+	`GOOGLE_API_KEY=(Paste API Key Here)`
 
 4. Visit https://sandbox.dwolla.com/Sandbox and follow instructions to generate a Dwolla API Key and Secret
 
 5. Include Dwolla API Key and Secret in .env file
 	
-	`DWOLLA_APP_KEY=(Paste Key Here)
-	`DWOLLA_APP_SECRET=(Paste Secret Here)
+	`DWOLLA_APP_KEY=(Paste Key Here)` </br>
+	`DWOLLA_APP_SECRET=(Paste Secret Here)`
 
 ## Installation
 
@@ -57,8 +57,8 @@ To install this application locally:
 
 4. Create and migrate project database    
 	
-	`$ rake db:create
-	`$ rake db:migrate
+	`$ rake db:create` </br>
+	`$ rake db:migrate`
 
 5. Start a local rails server.
     

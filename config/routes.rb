@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "oauth/authenticate"
 
+  resources :about, only: [:index]
+
   resources :groups, except: [:index, :destroy] do
     resources :events, except: [:index]
     resources :comments

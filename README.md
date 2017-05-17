@@ -1,6 +1,6 @@
 # Welcome to Raft
 
-*Deployed at [raft2k17.herokuapp.com](http://raft2k17.herokuapp.com/)*
+*Deployed at [raft2017.herokuapp.com](http://raft2017.herokuapp.com/)*
 
 ## The Team
 

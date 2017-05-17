@@ -91,6 +91,7 @@ config.action_mailer.raise_delivery_errors = true
 
 
 config.serve_static_assets = true
+config.serve_static_files = true
 config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
 

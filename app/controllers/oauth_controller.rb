@@ -1,7 +1,7 @@
 class OauthController < ApplicationController
   def begin
     # declare the URL where the user will be sent to after granting permission to your app:
-    return_url = "http://raft2k17.herokuapp.com/oauth/return"
+    return_url = "http://raft2017.herokuapp.com/oauth/return"
 
 
     logger.info return_url

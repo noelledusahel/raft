@@ -54,7 +54,7 @@ class OauthController < ApplicationController
   private
 
   def auth
-     return_url = "http://raft2017.herokuapp.com/oauth/return"
+     return_url = "http://raft2k17.herokuapp.com/oauth/return"
     $dwolla.auths.new redirect_uri: return_url, scope: "accountinfofull|balance|send|funding", state: session[:state] ||= SecureRandom.hex
   end
 end

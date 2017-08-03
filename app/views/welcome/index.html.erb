@@ -3,13 +3,11 @@
 	<% if !logged_in?  %>
 
 	<br><br><br>
-	<div class="center" id="logo">
+	<div class="center" title="Enter these credentials">
 		<%= image_tag "logo.png", size:'180' %>
 
 	</div>
-	<div id="popup">
-		Sign Up with this log-in
-	</div>
+	
 
 	<%= render partial: 'sessions/new' %>
 

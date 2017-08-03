@@ -37,6 +37,7 @@ gem 'rake', '~> 12.0.0'
 gem 'jquery-ui-rails'
 gem 'chronic'
 gem "paperclip", "~> 5.0.0"
+gem "materialize-sass"
 # Use Unicorn as the app server
 # gem 'unicorn'
 

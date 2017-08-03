@@ -1,15 +1,17 @@
 <div class='container center'>
 
-<% if !logged_in?  %>
+	<% if !logged_in?  %>
 
-<br><br><br>
-<div class="center">
-<%= image_tag "logo.png", size:'180' %>
+	<br><br><br>
+	<div class="center" id="logo">
+		<%= image_tag "logo.png", size:'180' %>
 
+	</div>
+	<div id="popup">
+		Sign Up with this log-in
+	</div>
 
-</div>
+	<%= render partial: 'sessions/new' %>
 
-<%= render partial: 'sessions/new' %>
-
-<% end %>
+	<% end %>
 </div>

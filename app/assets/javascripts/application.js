@@ -15,4 +15,10 @@
 //= require turbolinks
 //= require_tree .
 
-
+$(document).ready(function() {
+    $('#logo').hover(function() {
+        $('#popup').show();
+    }, function() {
+        $('#popup').hide();
+    });
+});
